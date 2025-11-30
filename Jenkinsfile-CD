@@ -1,0 +1,18 @@
+pipeline {
+    agent { 
+        node { 
+            label 'MLAgent' 
+            customWorkspace 'C:/Repository/GitHub/MLOps-Jenkins/' 
+        } 
+    }
+
+    stages {
+        stage('Start FastAPI Server') {
+            steps {
+                script {
+                    bat 'python model_serving.py'
+                }
+            }
+        }
+    }
+}
