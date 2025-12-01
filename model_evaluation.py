@@ -14,9 +14,12 @@ def evaluate():
 
     preds = (model.predict(X_test) > 0.5).astype("int32")
 
-    print(f"Accuracy: {accuracy_score(y_test, preds):.4f}")
+    acc = accuracy_score(y_test, preds)
+    print(f"Accuracy: {acc:.4f}")      # ⬅ CHUẨN CHO JENKINS
+
     print("\nClassification Report:")
     print(classification_report(y_test, preds))
+
     print("\nConfusion Matrix:")
     print(confusion_matrix(y_test, preds))
 
