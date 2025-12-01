@@ -1,0 +1,133 @@
+
+D:\MLOps\Jenkins\Demogit>python model_serving_2.py 
+2025-12-01 09:43:59.440380: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-12-01 09:44:00.988012: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-12-01 09:44:08.625347: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:     Started server process [24616]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:9000 (Press CTRL+C to quit)
+new /ui
+Server is running on LAN: http://192.168.1.154:9000
+Gradio UI available at: http://192.168.1.154:9000/ui
+INFO:     192.168.1.154:55190 - "GET /ui HTTP/1.1" 307 Temporary Redirect
+INFO:     192.168.1.154:55190 - "GET /ui/ HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55191 - "GET /ui/assets/index-84zif7Jb.css HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55190 - "GET /ui/assets/index-CGvp2os9.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55205 - "GET /ui/assets/svelte/svelte_internal_flags_async.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55191 - "GET /ui/assets/svelte/svelte_animate.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55190 - "GET /ui/assets/svelte/svelte_svelte.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55204 - "GET /ui/assets/svelte/svelte_internal_client.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55205 - "GET /ui/assets/svelte/svelte_internal_flags_legacy.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55191 - "GET /ui/assets/svelte/svelte_internal_flags_tracing.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55203 - "GET /ui/assets/svelte/svelte_easing.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55202 - "GET /ui/assets/svelte/svelte_attachments.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55204 - "GET /ui/assets/svelte/svelte_legacy.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55202 - "GET /ui/assets/svelte/svelte_server.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55203 - "GET /ui/assets/svelte/svelte_reactivity_window.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55190 - "GET /ui/assets/svelte/svelte_internal_server.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55203 - "GET /ui/assets/svelte/svelte_events.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55204 - "GET /ui/assets/svelte/svelte_store.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55202 - "GET /ui/assets/svelte/svelte_transition.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55190 - "GET /ui/assets/svelte/index-6-3S3c88.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55204 - "GET /ui/assets/svelte/legacy-client-BEycUrdj.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55191 - "GET /ui/assets/svelte/svelte_reactivity.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55203 - "GET /ui/assets/svelte/index-CsuPqJBw.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55202 - "GET /ui/assets/svelte/snippet-D9st6TNa.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55191 - "GET /ui/assets/svelte/utils-Bmu7F6be.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55190 - "GET /ui/assets/svelte/custom-element-B4TOh4nm.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55204 - "GET /ui/assets/svelte/constants-CdtLqJ9y.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55205 - "GET /ui/assets/svelte/svelte_motion.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55202 - "GET /ui/assets/svelte/attributes-dF2ZJHPo.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55190 - "GET /ui/assets/svelte/utils-DeGGsXKo.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55203 - "GET /ui/assets/svelte/validate-DDunbXC7.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55205 - "GET /ui/assets/svelte/escaping-CBnpiEl5.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55191 - "GET /ui/assets/svelte/loop-CiZ6Mtf9.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55204 - "GET /ui/assets/svelte/index-JAnAdsR6.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55190 - "GET /ui/assets/svelte/reactive-value-Di6jWgtv.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55202 - "GET /ui/assets/svelte/hydration-2IdOHHtJ.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55203 - "GET /ui/assets/svelte/media-query-C8CYkZ81.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55190 - "GET /ui/assets/i18n-BnliXTrJ.css HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55203 - "GET /ui/assets/Index-CFaJYjvv.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55204 - "GET /ui/assets/StreamingBar-CiZ1eSYP.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55190 - "GET /ui/assets/MarkdownCode-M16z1Sc7.css HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55191 - "GET /ui/assets/IconButtonWrapper-CKkeBFM2.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55202 - "GET /ui/assets/i18n-jwgpNIDD.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55203 - "GET /ui/assets/IconButtonWrapper-DVQ8sIMc.css HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55205 - "GET /ui/assets/MarkdownCode-DE3cszAA.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55204 - "GET /ui/assets/StreamingBar-K0YZHDYh.css HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55190 - "GET /ui/assets/Index-CI7BqPz-.css HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55202 - "GET /ui/assets/index-BiJXdkk1.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55203 - "GET /ui/assets/init.svelte-e7TNwPPP.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55205 - "GET /ui/assets/utils.svelte-Ceck75cM.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55191 - "GET /ui/assets/prism-python-t00J-xmS.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55191 - "GET /ui/theme.css?v=2fa39f6df94156f7ef9d84370dbb2657d672827c75f082ac995879c32290c5ca HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55191 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     192.168.1.154:55202 - "GET /ui/assets/Blocks-Cx_Ty34l.css HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55203 - "GET /ui/assets/state.svelte-DFm6rEHb.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55205 - "GET /ui/assets/Blocks-C28Yn11n.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55202 - "GET /ui/assets/Index-BDcHJDzf.css HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55204 - "GET /ui/assets/Example-CgIc4GLa.css HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55203 - "GET /ui/assets/Index.svelte_svelte_type_style_lang-CjKmylNf.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55190 - "GET /ui/assets/Example-BVMS6IPC.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55205 - "GET /ui/assets/Index-CR35CZp0.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55202 - "GET /ui/assets/Index-cY7HT1Ac.css HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55204 - "GET /ui/assets/BaseForm-uUC7FH4e.css HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55191 - "GET /ui/assets/Index-CRQYX_Su.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55205 - "GET /ui/assets/Image-Da_XA0w6.css HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55203 - "GET /ui/assets/Example-Cvv6PwrD.css HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55202 - "GET /ui/assets/ImagePreview-CCVfwC4m.css HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55190 - "GET /ui/assets/Index-BV0Z9mdW.css HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55204 - "GET /ui/assets/Button-BZ4d-rtD.css HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55205 - "GET /ui/assets/BaseForm-C8gZwaiu.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55191 - "GET /ui/assets/Index-DOMRA3zA.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55203 - "GET /ui/assets/Index-DX9PsZ4t.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55202 - "GET /ui/assets/Example-gF45j9DF.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55190 - "GET /ui/assets/Index-BJhoo6gT.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55204 - "GET /ui/assets/Button-DKeCukyW.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55191 - "GET /ui/assets/ImagePreview-wP3cuUYr.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55205 - "GET /ui/assets/Image-Bdf4wQSw.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55203 - "GET /ui/assets/ShareButton-l5f_cszo.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55202 - "GET /ui/assets/FullscreenButton-CLbadLV1.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55219 - "POST /ui/gradio_api/queue/join HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55220 - "GET /ui/gradio_api/queue/data?session_hash=bxg4lxv6rl HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55219 - "GET /ui/static/fonts/IBMPlexMono/IBMPlexMono-Regular.woff2 HTTP/1.1" 200 OK
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 13s/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m13s[0m 13s/step
+INFO:     192.168.1.154:55278 - "GET /ui/assets/Example-BeU1J4ps.css HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55279 - "GET /ui/assets/Index-CRhvQE-V.css HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55277 - "GET /ui/assets/Example-Ctdnw0MA.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55274 - "GET /ui/assets/Settings-BA8IMO-m.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55278 - "GET /ui/assets/Index-B2BpVHOS.css HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55275 - "GET /ui/assets/clear-BJfJ8fXC.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55276 - "GET /ui/assets/Index-B4JJuPUY.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55279 - "GET /ui/assets/Settings-CLQaonub.css HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55277 - "GET /ui/assets/Index-CHKikD1I.js HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55277 - "POST /ui/gradio_api/queue/join HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55277 - "GET /ui/gradio_api/queue/data?session_hash=bxg4lxv6rl HTTP/1.1" 200 OK
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 132ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 256ms/step
+INFO:     192.168.1.154:55288 - "POST /ui/gradio_api/queue/join HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55288 - "GET /ui/gradio_api/queue/data?session_hash=bxg4lxv6rl HTTP/1.1" 200 OK
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 28ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 51ms/step
+INFO:     192.168.1.154:55350 - "POST /ui/gradio_api/queue/join HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55350 - "GET /ui/gradio_api/queue/data?session_hash=bxg4lxv6rl HTTP/1.1" 200 OK
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 99ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 237ms/step
+INFO:     192.168.1.154:55751 - "POST /ui/gradio_api/queue/join HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55751 - "GET /ui/gradio_api/queue/data?session_hash=bxg4lxv6rl HTTP/1.1" 200 OK
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 193ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 384ms/step
+INFO:     192.168.1.154:55751 - "POST /ui/gradio_api/queue/join HTTP/1.1" 200 OK
+INFO:     192.168.1.154:55751 - "GET /ui/gradio_api/queue/data?session_hash=bxg4lxv6rl HTTP/1.1" 200 OK
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 140ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 342ms/step
