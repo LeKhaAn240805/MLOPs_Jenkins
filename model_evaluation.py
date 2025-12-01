@@ -15,8 +15,7 @@ def evaluate():
     preds = (model.predict(X_test) > 0.5).astype("int32")
 
     acc = accuracy_score(y_test, preds)
-    print(f"Accuracy: {acc:.4f}")      # ⬅ CHUẨN CHO JENKINS
-
+    print(f"Accuracy: {acc:.4f}")      
     print("\nClassification Report:")
     print(classification_report(y_test, preds))
 
