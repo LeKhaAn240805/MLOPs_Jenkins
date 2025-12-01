@@ -2,6 +2,10 @@
 import joblib
 import tensorflow as tf
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+import os
+
+# Tắt bớt log TensorFlow để Jenkins không bị nhiễu output
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 def load_preprocessed_data(file_path):
     data = joblib.load(file_path)
@@ -15,7 +19,10 @@ def evaluate():
     preds = (model.predict(X_test) > 0.5).astype("int32")
 
     acc = accuracy_score(y_test, preds)
-    print(f"Accuracy: {acc:.4f}")      
+
+    print(f"Accuracy: {acc:.4f}")           
+    print(f"ACCURACY={acc:.4f}")           
+    
     print("\nClassification Report:")
     print(classification_report(y_test, preds))
 
